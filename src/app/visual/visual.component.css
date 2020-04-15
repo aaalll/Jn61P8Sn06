@@ -20,8 +20,3 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-
-.visual-container :visible{
-  background-color: blue;
-}
-
