@@ -9,7 +9,7 @@ export class VisualComponent implements OnInit {
   @Input('success') success: string = '10';
   @Input('error') error: string = '40';
   @Input('unknown') unknown: string = '50';
-  private success_size: number = parseInt(this.success) / (parseInt(this.success) + parseInt(this.error) + parseInt(this.unknown)) * 100;
+  public success_size: number = parseInt(this.success) / (parseInt(this.success) + parseInt(this.error) + parseInt(this.unknown)) * 100;
   private error_size: number = parseInt(this.success) / (parseInt(this.success) + parseInt(this.error) + parseInt(this.unknown)) * 100;
   private unknown_size: number = parseInt(this.success) / (parseInt(this.success) + parseInt(this.error) + parseInt(this.unknown)) * 100;
 

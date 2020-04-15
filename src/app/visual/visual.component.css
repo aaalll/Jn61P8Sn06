@@ -6,7 +6,22 @@
 }
 
 .visual-box {
-    margin: 2px;
-    padding: 0px;
-    height: 10px;
-  }
+  margin: 2px;
+  padding: 0px;
+  height: 10px;
+}
+
+.visual-container :nth-child(1) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.visual-container :nth-last-child(1) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.visual-container :visible{
+  background-color: blue;
+}
+

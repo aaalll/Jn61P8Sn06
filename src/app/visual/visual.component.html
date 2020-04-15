@@ -1,5 +1,5 @@
 <div class="visual-container">
-    <div class="visual-box" [style.width.pc]="success" style="background-color:green;"> </div>
-    <div class="visual-box" [style.width.pc]="error" style="background-color:red;"> </div>
-    <div class="visual-box" [style.width.pc]="unknown" style="background-color:gray;"> </div>
+    <div *ngIf="success!='0'" class="visual-box" [style.width.pc]="success" style="background-color:green;"> </div>
+    <div *ngIf="error!='0'" class="visual-box" [style.width.pc]="error" style="background-color:red;"> </div>
+    <div *ngIf="unknown!='0'"class="visual-box" [style.width.pc]="unknown" style="background-color:gray;"> </div>
 </div>
