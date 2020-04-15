@@ -1,0 +1,12 @@
+.visual-container {
+  display: flex;
+  width: 100%;
+  min-width: 200px;
+  height: 10px;
+}
+
+.visual-box {
+    margin: 2px;
+    padding: 0px;
+    height: 10px;
+  }
